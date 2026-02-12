@@ -1,0 +1,71 @@
+nav {
+  background-color: rgb(210, 172, 198);
+  padding: 16px;
+}
+img {
+  max-width: 100%;
+  /* height: auto; */
+}
+body {
+  background-color: rgb(212, 209, 199);
+  line-height: 1.6;
+  font-size: 1.2em;
+}
+
+@font-face {
+  font-family: oswald;
+  src: url(../Fonts/Oswald-VariableFont_wght.woff);
+}
+
+h2 {
+  font-family: oswald;
+}
+
+@font-face {
+  font-family: saria;
+  src: url(../Fonts/Saira-VariableFont_wdth\,wght.woff);
+}
+h1 {
+  font-family: saria;
+}
+
+nav ul {
+  list-style: none;
+}
+
+/* section {
+  border: 1px solid black;
+}
+section {
+  margin: 0.4rem;
+} */
+
+.cta-button {
+  color: rgb(0, 0, 0);
+  background-color: rgb(139, 169, 201);
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+  border-radius: 5px;
+
+  border: black 5px double;
+}
+main {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+}
+/* p {
+  padding: 20px 16px;
+} */
+
+h1,
+h2,
+h3 {
+  padding: 12px;
+}
